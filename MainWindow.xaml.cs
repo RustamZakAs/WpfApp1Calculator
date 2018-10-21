@@ -66,7 +66,7 @@ namespace WpfApp1Calculator
                 if (s == "=")
                 {
                     Update_RightOp();
-                    textBlock.Text += rightop;
+                    if (rightop.Length > 0) textBlock.Text += rightop;
                     operation = "";
                 }
                 // Очищаем поле и переменные
