@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Grid x:Name="LayoutRoot" Background="#FFE6E6E6" Grid.ColumnSpan="4">
+        <Grid x:Name="LayoutRoot" Background="#FFE6E6E6" Grid.ColumnSpan="2">
             <Grid.RowDefinitions>
                 <RowDefinition />
                 <RowDefinition />
