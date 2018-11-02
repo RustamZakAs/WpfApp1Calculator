@@ -34,6 +34,7 @@ namespace WpfApp1Calculator
                     ((Button)c).Click += Button_Click;
                 }
             }
+            textBlock.Text = "0";
         }
         private void Button_Click(object sender, RoutedEventArgs e)
         {

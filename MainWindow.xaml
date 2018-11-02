@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Grid x:Name="LayoutRoot" Background="White">
+        <Grid x:Name="LayoutRoot" Background="#FFE6E6E6" Grid.ColumnSpan="4">
             <Grid.RowDefinitions>
                 <RowDefinition />
                 <RowDefinition />
@@ -58,16 +58,16 @@
                         Grid.Row="2" 
                         Grid.ColumnSpan="4"
                         HorizontalAlignment="Left">
-                <Button Width="60">MC</Button>
-                <Button Width="60">MR</Button>
-                <Button Width="60">M+</Button>
-                <Button Width="60">M-</Button>
-                <Button Width="60">MS</Button>
+                <Button FontWeight="DemiBold" BorderBrush="#FFE6E6E6" Background="#FFE6E6E6" Width="60">MC</Button>
+                <Button FontWeight="DemiBold" BorderBrush="#FFE6E6E6" Background="#FFE6E6E6" Width="60">MR</Button>
+                <Button FontWeight="DemiBold" BorderBrush="#FFE6E6E6" Background="#FFE6E6E6" Width="60">M+</Button>
+                <Button FontWeight="DemiBold" BorderBrush="#FFE6E6E6" Background="#FFE6E6E6" Width="60">M-</Button>
+                <Button FontWeight="DemiBold" BorderBrush="#FFE6E6E6" Background="#FFE6E6E6" Width="60">MS</Button>
             </DockPanel>
             <StackPanel Grid.Column="4" 
                         Grid.Row="0" Orientation="Horizontal">
-                <Button FontStyle="Normal" FontWeight="Bold">History</Button>
-                <Button FontStyle="Normal" FontWeight="Bold">Memory</Button>
+                <Button FontStyle="Normal" FontWeight="Bold" BorderBrush="#FFE6E6E6" Background="#FFE6E6E6">History</Button>
+                <Button FontStyle="Normal" FontWeight="Bold" BorderBrush="#FFE6E6E6" Background="#FFE6E6E6">Memory</Button>
             </StackPanel>
         </Grid>
     </Grid>
